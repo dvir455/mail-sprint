@@ -4,8 +4,8 @@ export class AppHeader extends React.Component {
     return (
       <header className="app-header">
         <div className="left-section">
-          <img className="hamburger" src="/assets/imgs/hamburger.svg" />
-          <img className="logo" src="/assets/imgs/google-logo.png" />
+          <img className="hamburger" src="./assets/imgs/hamburger.svg" />
+          <img className="logo" src="./assets/imgs/google-logo.png" />
         </div>
         <SearchArea />
       </header>
