@@ -1,0 +1,67 @@
+.compose-container {
+  position: fixed;
+  right: 2rem;
+  bottom: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  height: 455px;
+  width: 455px; /* z-index: 5; */
+  background-color: white;
+  box-shadow: rgb(218, 220, 224) 1px 0px 0px 0px inset,
+    rgb(218, 220, 224) -1px 0px 0px 0px inset,
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.header-container {
+  background: #404040;
+  border-radius: inherit;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message-header {
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+}
+
+.close-button {
+  cursor: pointer;
+  color: white;
+}
+
+.compose-form {
+  padding: 5px 16px 10px 16px;
+  height: calc(100% - 38px);
+  display: flex;
+  flex-direction: column;
+}
+
+.to-input {
+  height: 20px;
+  border-bottom: 1px solid grey;
+  padding: 6px 0;
+  box-sizing: content-box;
+}
+
+.subject-input {
+  height: 20px;
+  border-bottom: 1px solid grey;
+  padding: 6px 0;
+  box-sizing: content-box;
+}
+
+.message-input {
+  flex-grow: 1;
+}
+
+.bottom-container {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 1em;
+}
