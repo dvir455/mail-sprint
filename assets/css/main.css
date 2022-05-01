@@ -4,7 +4,7 @@
 @import './global.css';
 @import './app-header/main-header.css';
 @import './side-nav/main-nav.css';
-@import './emails/email-app.css';
-@import './emails/email-preview.css';
-@import './emails/email-details.css';
-@import './compose/email-compose.css';
+@import './email-app.css';
+@import './email-preview.css';
+@import './email-details.css';
+@import './email-compose.css';
