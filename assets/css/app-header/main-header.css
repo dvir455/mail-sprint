@@ -29,7 +29,7 @@
   color: #6f6f70;
 }
 .search-button {
-  background-image: url('/assets/imgs/search-icon.svg');
+  background-image: url('../../imgs/search-icon.svg');
   height: 1.5rem;
   width: 1.5rem;
   margin-inline-start: 1rem;
@@ -37,7 +37,7 @@
 }
 
 .filter-button {
-  background-image: url('/assets/imgs/filter.svg');
+  background-image: url('../../imgs/filter.svg');
   height: 1.5rem;
   width: 1.5rem;
   margin-inline-start: 3.125rem;
@@ -49,7 +49,6 @@
   width: 14.875rem;
   align-items: center;
 }
-
 
 .hamburger {
   height: 1.5rem;
