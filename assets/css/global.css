@@ -10,14 +10,13 @@ body {
 .app {
   display: grid;
   grid-template-columns: 16rem 1fr;
+  /* grid-template-columns: 16rem 1fr; */
+/* grid-template-rows: 5rem 1fr; */
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
-SideBar {
+SideNav {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-/* EmailList {
-  grid-area: 1 / 2 / 2 / 6;
-} */

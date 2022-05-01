@@ -30,3 +30,24 @@
   background-color: #e8eaed;
   font-weight: bold;
 }
+
+
+
+.compose-btn-container{
+  box-sizing: content-box;
+  height: 48px;
+  padding-right: 24px;
+  margin-inline-start: 8px;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .875rem;
+  letter-spacing: .25px;
+  padding-left: 12px;
+  gap: 0.5rem;
+}
+

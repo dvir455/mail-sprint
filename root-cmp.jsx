@@ -8,11 +8,11 @@ const Router = ReactRouterDOM.HashRouter;
 const { Route, Switch } = ReactRouterDOM;
 
 export function App() {
-  const [isComposeOpen, setIsComposeOpen] = React.useState(false);
+  // const [isComposeOpen, setIsComposeOpen] = React.useState(false);
 
-  const setTrue = () => {
-    setIsComposeOpen((prevState) => !prevState);
-  };
+  // const setTrue = () => {
+  //   setIsComposeOpen((prevState) => !prevState);
+  // };
 
   return (
     <React.Fragment>
@@ -25,11 +25,9 @@ export function App() {
             <Route path="/:filter?" component={EmailApp} />
           </Switch>
         </section>
-        {isComposeOpen && <EmailCompose setIsComposeOpen={setIsComposeOpen} />}
+
         {/* <UserMsg /> */}
       </Router>{' '}
-      <button onClick={setTrue}>DVIR</button>
-
     </React.Fragment>
   );
 }

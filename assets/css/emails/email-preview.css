@@ -2,11 +2,9 @@
   border-bottom: 1px solid var(--line-break-grey);
   display: flex;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
   font-size: 14px;
-  line-height: 20px;
-
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -16,7 +14,6 @@
     rgb(218, 220, 224) -1px 0px 0px 0px inset,
     rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  transform: scale(1.01);
   white-space: pre-line;
 }
 
@@ -64,4 +61,5 @@
 .trash-img {
   height: 25px;
   width: 25px;
+  cursor: pointer;
 }
