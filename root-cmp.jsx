@@ -16,7 +16,6 @@ export function App() {
 
   return (
     <React.Fragment>
-      <button onClick={setTrue}>DVIR</button>
       <Router>
         <AppHeader />
         <section className="app">
@@ -29,6 +28,8 @@ export function App() {
         {isComposeOpen && <EmailCompose setIsComposeOpen={setIsComposeOpen} />}
         {/* <UserMsg /> */}
       </Router>{' '}
+      <button onClick={setTrue}>DVIR</button>
+
     </React.Fragment>
   );
 }
