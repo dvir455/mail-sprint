@@ -16,7 +16,7 @@ class SideNav extends React.Component {
     return (
       <div>
         <button className="compose-btn-container" onClick={this.setTrue}>
-          <img src="../../../assets/imgs/plus.png" />
+          <img src="../../assets/imgs/plus.png" />
           <div>Compose</div>
         </button>
 
